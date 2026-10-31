@@ -1,12 +1,14 @@
 cff-version: 1.2.0
-message: "Please cite the paper and this repository."
-title: "Securities, Surveillance, and Spatial Inequality: A Corporate Disclosure Audit of AI Policing Infrastructure in India"
+message: "Please cite the paper and this archived release."
+title: 'Code and data archive for "Securities, Surveillance, and Spatial Inequality: A Corporate Disclosure Audit of AI Policing Infrastructure in India"'
 type: software
-version: 0.1.0
-date-released: 2026-10-26
+version: 1.0.0
+date-released: 2026-10-31
 authors:
   - name: "Raagaception"
 repository-code: "https://github.com/Raagaception/securities-to-spatial-surveillance"
+doi: 10.5281/zenodo.23836694
+url: "https://doi.org/10.5281/zenodo.23836694"
 license: MIT
 keywords:
   - surveillance

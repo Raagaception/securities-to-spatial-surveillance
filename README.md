@@ -5,8 +5,12 @@ Pune, carried out against the Allied Digital Safe City contract.
 
 **Credit:** Raagaception.
 
-**Status:** preliminary. The analysis is unfinished and this repository should
-not be cited until the accompanying paper has a DOI.
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23836694.svg)](https://doi.org/10.5281/zenodo.23836694)
+
+**Archived release:** v1.0.0 (2026-10-31). DOI:
+[10.5281/zenodo.23836694](https://doi.org/10.5281/zenodo.23836694).
+
+GitHub is the development version; cite the archived release.
 
 ## What is here
 
@@ -229,5 +233,12 @@ from each other and from MIT. `DATA-LICENCES.md` lists them file by file.
 
 ## Citation
 
-`CITATION.cff` holds the machine-readable citation. Please cite the paper once
-it is published, and this repository alongside it.
+If you use this repository, cite the archived release:
+
+Raagaception. (2026). *Code and data archive for "Securities, Surveillance,
+and Spatial Inequality: A Corporate Disclosure Audit of AI Policing
+Infrastructure in India"* (Version 1.0.0) [Computer software]. Zenodo.
+https://doi.org/10.5281/zenodo.23836694
+
+`CITATION.cff` holds the machine-readable record. Cite the paper separately once
+published.
