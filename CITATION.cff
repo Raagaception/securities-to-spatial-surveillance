@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite the paper and this repository."
+title: "Securities, Surveillance, and Spatial Inequality: A Corporate Disclosure Audit of AI Policing Infrastructure in India"
+type: software
+version: 0.1.0
+date-released: 2026-10-26
+authors:
+  - name: "Raagaception"
+repository-code: "https://github.com/Raagaception/securities-to-spatial-surveillance"
+license: MIT
+keywords:
+  - surveillance
+  - CCTV
+  - Pune
+  - spatial analysis
+  - public procurement
+  - India

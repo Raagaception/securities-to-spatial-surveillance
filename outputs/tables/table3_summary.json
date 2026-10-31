@@ -1,0 +1,290 @@
+{
+  "checks": [
+    {
+      "expected": 144,
+      "name": "ward_count",
+      "observed": 144,
+      "status": "pass"
+    },
+    {
+      "expected": "1-144, no gaps or duplicates",
+      "name": "ward_numbers_complete",
+      "observed": "1-144, 144 unique",
+      "status": "pass"
+    },
+    {
+      "expected": 3124458,
+      "name": "population_total",
+      "observed": 3124458,
+      "status": "pass"
+    },
+    {
+      "expected": 419396,
+      "name": "sc_total",
+      "observed": 419396,
+      "status": "pass"
+    },
+    {
+      "expected": 34025,
+      "name": "st_total",
+      "observed": 34025,
+      "status": "pass"
+    },
+    {
+      "expected": 963,
+      "name": "existing_inside",
+      "observed": 963,
+      "status": "pass"
+    },
+    {
+      "expected": 2146,
+      "name": "proposed_inside",
+      "observed": 2146,
+      "status": "pass"
+    },
+    {
+      "expected": 358,
+      "name": "pune_existing_sites",
+      "observed": 358,
+      "status": "pass"
+    },
+    {
+      "expected": 1007,
+      "name": "pune_proposed_sites",
+      "observed": 1007,
+      "status": "pass"
+    },
+    {
+      "expected": 1077,
+      "name": "pune_existing_cameras",
+      "observed": 1077,
+      "status": "pass"
+    },
+    {
+      "expected": 2886,
+      "name": "pune_proposed_cameras",
+      "observed": 2886,
+      "status": "pass"
+    },
+    {
+      "expected": 114,
+      "name": "existing_outside",
+      "observed": 114,
+      "status": "pass"
+    },
+    {
+      "expected": 740,
+      "name": "proposed_outside",
+      "observed": 740,
+      "status": "pass"
+    },
+    {
+      "expected": "max drift < 1e-09",
+      "name": "class_breaks",
+      "observed": "3.331e-16",
+      "status": "pass"
+    },
+    {
+      "expected": [
+        29,
+        29,
+        28,
+        29,
+        29
+      ],
+      "name": "class_counts",
+      "observed": [
+        29,
+        29,
+        28,
+        29,
+        29
+      ],
+      "status": "pass"
+    },
+    {
+      "expected": 100.0,
+      "name": "existing_pct_total",
+      "observed": 100.0,
+      "status": "pass"
+    },
+    {
+      "expected": 100.0,
+      "name": "proposed_pct_total",
+      "observed": 100.0,
+      "status": "pass"
+    },
+    {
+      "expected": 100.0,
+      "name": "residents_pct_total",
+      "observed": 100.0,
+      "status": "pass"
+    }
+  ],
+  "class_breaks": [
+    0.008683068017366137,
+    0.06626841060174395,
+    0.1007851453596719,
+    0.14620661948922667,
+    0.225284429587565,
+    0.5313412563667232
+  ],
+  "class_counts": [
+    29,
+    29,
+    28,
+    29,
+    29
+  ],
+  "inputs": [
+    {
+      "format": "gpkg",
+      "path": "outputs/figures/2011census_wards-with-cameras-all.gpkg",
+      "sha256": "9d21d7a406deee8173cb5d940a02045350bc0135397e21243b205d6539967126"
+    },
+    {
+      "format": "csv",
+      "path": "outputs/extraction/sites_pymupdf.csv",
+      "sha256": "90b40a5dff24a9a7a1ba0e92592246bd5b460bac298307f3d49942fa4f7999ff"
+    }
+  ],
+  "outside": {
+    "existing_cameras": 114,
+    "existing_pct": 10.584958217270195,
+    "proposed_cameras": 740,
+    "proposed_pct": 25.64102564102564
+  },
+  "ratio_rule": {
+    "both": {
+      "gradient": false,
+      "ratios": [
+        1.3048069828775652,
+        0.8158048478664583,
+        1.0589651840523395,
+        1.104660594325752,
+        0.7420333275413329
+      ],
+      "verdict": "mixed"
+    },
+    "existing": {
+      "gradient": false,
+      "ratios": [
+        1.3969590509312018,
+        0.6506192268837504,
+        0.9333130797942987,
+        0.9123900683191296,
+        0.6368239546434301
+      ],
+      "verdict": "mixed"
+    },
+    "proposed": {
+      "gradient": false,
+      "ratios": [
+        0.8843104684384773,
+        0.6360430923988287,
+        0.7924963860984974,
+        0.8495307290987734,
+        0.5617194096240575
+      ],
+      "verdict": "mixed"
+    }
+  },
+  "rows": [
+    {
+      "cameras_per_1000_residents": 1.298351557219316,
+      "class": "Q1 (0.01\u20130.07)",
+      "existing_cameras": 270,
+      "existing_pct": 25.069637883008355,
+      "lower_exact": 0.008683068017366137,
+      "proposed_cameras": 458,
+      "proposed_pct": 15.86971586971587,
+      "residents": 560711,
+      "residents_pct": 17.945864530744213,
+      "upper_exact": 0.06626841060174395,
+      "wards": 29
+    },
+    {
+      "cameras_per_1000_residents": 0.8117687202122157,
+      "class": "Q2 (0.07\u20130.10)",
+      "existing_cameras": 163,
+      "existing_pct": 15.134633240482822,
+      "lower_exact": 0.06626841060174395,
+      "proposed_cameras": 427,
+      "proposed_pct": 14.795564795564795,
+      "residents": 726808,
+      "residents_pct": 23.261890542295653,
+      "upper_exact": 0.1007851453596719,
+      "wards": 29
+    },
+    {
+      "cameras_per_1000_residents": 1.053726040554465,
+      "class": "Q3 (0.10\u20130.15)",
+      "existing_cameras": 207,
+      "existing_pct": 19.220055710306408,
+      "lower_exact": 0.1007851453596719,
+      "proposed_cameras": 471,
+      "proposed_pct": 16.320166320166322,
+      "residents": 643431,
+      "residents_pct": 20.593363713002383,
+      "upper_exact": 0.14620661948922667,
+      "wards": 28
+    },
+    {
+      "cameras_per_1000_residents": 1.0991953765289093,
+      "class": "Q4 (0.15\u20130.23)",
+      "existing_cameras": 202,
+      "existing_pct": 18.755803156917363,
+      "lower_exact": 0.14620661948922667,
+      "proposed_cameras": 504,
+      "proposed_pct": 17.463617463617464,
+      "residents": 642288,
+      "residents_pct": 20.556781368160493,
+      "upper_exact": 0.225284429587565,
+      "wards": 29
+    },
+    {
+      "cameras_per_1000_residents": 0.7383621784405501,
+      "class": "Q5 (0.23\u20130.55)",
+      "existing_cameras": 121,
+      "existing_pct": 11.234911792014856,
+      "lower_exact": 0.225284429587565,
+      "proposed_cameras": 286,
+      "proposed_pct": 9.90990990990991,
+      "residents": 551220,
+      "residents_pct": 17.642099845797254,
+      "upper_exact": 0.5313412563667232,
+      "wards": 29
+    }
+  ],
+  "script": "scripts/build_table3.py",
+  "script_sha256": "ff733f99d8dd7108d8ef4d6dbb38238a69fe83b261b91ac1f128ffa10320fc6a",
+  "sites": {
+    "cameras_existing": 1077,
+    "cameras_proposed": 2886,
+    "sites_existing": 358,
+    "sites_proposed": 1007,
+    "ungeocoded_cameras": 14,
+    "ungeocoded_sites": 3
+  },
+  "table": "table3_scst_allocation",
+  "totals": {
+    "existing_inside": 963,
+    "existing_outside": 114,
+    "existing_pune": 1077,
+    "population": 3124458,
+    "proposed_inside": 2146,
+    "proposed_outside": 740,
+    "proposed_pune": 2886,
+    "sc": 419396,
+    "st": 34025
+  },
+  "weighted_shares": {
+    "both": 0.1343472171654637,
+    "both_denominator": 3109,
+    "existing": 0.12854476763117414,
+    "existing_denominator": 963,
+    "proposed": 0.1369510190767036,
+    "proposed_denominator": 2146,
+    "resident_weighted": 0.14511988959365113
+  }
+}

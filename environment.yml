@@ -1,0 +1,29 @@
+# Analysis environment for the study (Python 3.11).
+#
+# The extraction pipeline needs only four packages. Their exact, tested versions
+# are pinned in requirements-extraction.txt, which is the file to use when you
+# want to reproduce the committed tables in outputs/extraction/ byte for byte.
+# The packages below cover the wider spatial analysis.
+#
+name: pune-audit
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - geopandas
+  - pyogrio
+  - shapely
+  - pyproj
+  - rasterio
+  - pandas
+  - numpy
+  - scipy
+  - libpysal
+  - esda
+  - h3-py
+  - matplotlib
+  - mapclassify
+  - pyyaml
+  # Extraction only. Exact versions are pinned in requirements-extraction.txt.
+  - pdfplumber
+  - pymupdf

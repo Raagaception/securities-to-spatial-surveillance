@@ -1,0 +1,67 @@
+# Every path in this file is RELATIVE TO THE REPOSITORY ROOT (the parent of
+# scripts/ and config/). The scripts resolve them with pathlib from the repo
+# root, so no absolute or machine-specific paths appear anywhere.
+#
+# All page numbers below are PRINTED page numbers, which equal the 1-based PDF
+# page index for this document. Verified on pages 81, 83, 100 and 166: page 81
+# carries the "Existing CCTV Count as a part of PCS Project" table, page 83 the
+# first Annexure A page, page 100 the first Annexure B page, and page 166 the
+# "Grand Total" row of Annexure B.
+
+pdf_path: data/raw/Tendernotice_2-PuneCCTVVOLII.pdf
+
+# Page used by extract_pdfplumber.py to print the detected column x-positions,
+# so the configured bounds below can be checked against the real document.
+calibration_page: 83
+
+pages:
+  control_table:
+    start: 81
+    end: 82
+  annexure_a:
+    start: 83
+    end: 99
+  annexure_b:
+    start: 100
+    end: 166
+
+# Annexure B is read only until the first row containing this text; Annexure C
+# follows the Grand Total row on page 166 and must not be read.
+stop:
+  annexure_b_stop_text: "Grand Total"
+
+station_scope_path: config/station_scope.csv
+
+# Column boundaries are x-coordinates in PDF points, left edge of column n to
+# left edge of column n+1, measured on the page. The document draws each border
+# as a cluster of near-duplicate lines (a few points apart), so a single
+# boundary is approximated by the middle of such a cluster. Cells are assigned
+# to a column by the horizontal centre of their cell box, which is stable even
+# when a table gains extra interior rules (some pages split one logical cell
+# into two boxes with a stray rule; both centres land in the same column and
+# their texts are joined).
+#
+# len(bounds) == len(fields) + 1 for every entry below.
+column_bounds:
+  # PoliceStation | Count of Cameras
+  control_table: [54.0, 395.0, 756.5]
+
+  # SN | Location Name | Geo Location | ANPR | Fixed | PTZ | Total Cameras | Go Live
+  annexure_a: [54.0, 84.7, 330.5, 458.0, 508.0, 578.5, 649.5, 720.5, 793.0]
+
+  # SN | Police Station | Proposed Location Spot | Lat | Long | Category |
+  # Poles | Fixed | PTZ | ANPR
+  annexure_b: [54.0, 92.4, 177.2, 301.2, 383.7, 460.1, 554.3, 621.7, 684.4, 738.2, 801.5]
+
+# Extraction output. Kept in their own subdirectory so they do not mix with the
+# study's other outputs (outputs/figures, outputs/tables).
+outputs:
+  sites_pdfplumber: outputs/extraction/sites_pdfplumber.csv
+  sites_pymupdf: outputs/extraction/sites_pymupdf.csv
+  controls: outputs/extraction/controls.csv
+  controls_pymupdf: outputs/extraction/controls_pymupdf.csv
+  unmatched: outputs/extraction/unmatched_stations.csv
+  unmatched_pymupdf: outputs/extraction/unmatched_stations_pymupdf.csv
+  dropped_headers: outputs/extraction/dropped_headers.csv
+  dropped_headers_pymupdf: outputs/extraction/dropped_headers_pymupdf.csv
+  diff: outputs/extraction/diff.csv

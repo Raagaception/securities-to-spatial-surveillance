@@ -1,0 +1,37 @@
+# Default: auto-detect text files and perform LF normalization.
+* text=auto
+
+# ---------------------------------------------------------------------------
+# Research data is stored and checked out BYTE-FOR-BYTE, verbatim.
+#
+# Any end-of-line conversion would change the bytes on disk and therefore
+# invalidate the SHA-256 values recorded in metadata/sources.csv and
+# metadata/SHA256SUMS. `-text` disables EOL conversion entirely; `-diff`
+# stops Git treating these as text in diffs.
+# ---------------------------------------------------------------------------
+data/**   -text -diff
+outputs/** -text -diff
+
+# Raw sources are treated as opaque binaries in full, so that no conversion or
+# merge can ever rewrite a byte. The macro `binary` expands to
+# `-diff -merge -text`.
+data/raw/** binary
+
+# Explicit binary markers for known formats. `binary` is a built-in macro
+# equal to `-diff -merge -text`; this is belt-and-braces alongside the rules
+# above, and documents intent for anyone reading this file.
+*.pbf     binary
+*.osm.pbf binary
+*.pdf     binary
+*.xlsx    binary
+*.zip     binary
+*.gpkg    binary
+*.tif     binary
+*.tiff    binary
+*.shp     binary
+*.shx     binary
+*.dbf     binary
+*.png     binary
+*.jpg     binary
+*.jpeg    binary
+*.qgz     binary

@@ -1,0 +1,102 @@
+annexure,control_type,pdf_page,row_index_on_page,text,count_raw,anpr,fixed,ptz,total_reported,go_live_raw,zone,section_heading,extractor
+control_table,table_title,81,0,Existing CCTV Count as a part of PCS Project,,,,,,,,,pdfplumber
+control_table,zone_heading,81,1,Zone 1,346,,,,346,,Zone 1,,pdfplumber
+control_table,station_count,81,2,Deccan,49,,,,49,,Zone 1,,pdfplumber
+control_table,station_count,81,3,Faraskhana,57,,,,57,,Zone 1,,pdfplumber
+control_table,station_count,81,4,Khadak,58,,,,58,,Zone 1,,pdfplumber
+control_table,station_count,81,5,Samarth,37,,,,37,,Zone 1,,pdfplumber
+control_table,station_count,81,6,Shivaji Nagar,47,,,,47,,Zone 1,,pdfplumber
+control_table,station_count,81,7,Vishrambaug,98,,,,98,,Zone 1,,pdfplumber
+control_table,zone_heading,81,8,Zone 2,199,,,,199,,Zone 2,,pdfplumber
+control_table,station_count,81,9,Bharti Vidhyapeeth,28,,,,28,,Zone 2,,pdfplumber
+control_table,station_count,81,10,Bundgarden,49,,,,49,,Zone 2,,pdfplumber
+control_table,station_count,81,11,Koregaonpark,27,,,,27,,Zone 2,,pdfplumber
+control_table,station_count,81,12,Lashkar,44,,,,44,,Zone 2,,pdfplumber
+control_table,station_count,81,13,Sahakarnagar,17,,,,17,,Zone 2,,pdfplumber
+control_table,station_count,81,14,Swargate,34,,,,34,,Zone 2,,pdfplumber
+control_table,zone_heading,81,15,Zone 3,108,,,,108,,Zone 3,,pdfplumber
+control_table,station_count,81,16,Alankar,6,,,,6,,Zone 3,,pdfplumber
+control_table,station_count,81,17,Dattawadi,32,,,,32,,Zone 3,,pdfplumber
+control_table,station_count,81,18,Kothrud,37,,,,37,,Zone 3,,pdfplumber
+control_table,station_count,81,19,Uttam Nagar,4,,,,4,,Zone 3,,pdfplumber
+control_table,station_count,81,20,Warje Malwadi,29,,,,29,,Zone 3,,pdfplumber
+control_table,zone_heading,81,21,Zone 4,233,,,,233,,Zone 4,,pdfplumber
+control_table,station_count,81,22,Chandan Nagar,13,,,,13,,Zone 4,,pdfplumber
+control_table,station_count,81,23,Chaturshringi,87,,,,87,,Zone 4,,pdfplumber
+control_table,station_count,81,24,Khadki,19,,,,19,,Zone 4,,pdfplumber
+control_table,table_title,82,0,Existing CCTV Count as a part of PCS Project,,,,,,,,,pdfplumber
+control_table,station_count,82,1,Vimantal,40,,,,40,,Zone 4,,pdfplumber
+control_table,station_count,82,2,Vishrantwadi,28,,,,28,,Zone 4,,pdfplumber
+control_table,station_count,82,3,Yerawada,46,,,,46,,Zone 4,,pdfplumber
+control_table,zone_heading,82,4,Zone 5,191,,,,191,,Zone 5,,pdfplumber
+control_table,station_count,82,5,Bibwewadi,15,,,,15,,Zone 5,,pdfplumber
+control_table,station_count,82,6,Hadapsar,44,,,,44,,Zone 5,,pdfplumber
+control_table,station_count,82,7,Kondhawa,49,,,,49,,Zone 5,,pdfplumber
+control_table,station_count,82,8,Marketyard,17,,,,17,,Zone 5,,pdfplumber
+control_table,station_count,82,9,Mundhwa,29,,,,29,,Zone 5,,pdfplumber
+control_table,station_count,82,10,Wanavadi,37,,,,37,,Zone 5,,pdfplumber
+control_table,area_heading,82,11,Pimpri Chinchwad Area,264,,,,264,,Zone 5,Pimpri Chinchwad Area,pdfplumber
+control_table,station_count,82,12,Bhosari,31,,,,31,,Zone 5,Pimpri Chinchwad Area,pdfplumber
+control_table,station_count,82,13,Chinchwad,20,,,,20,,Zone 5,Pimpri Chinchwad Area,pdfplumber
+control_table,station_count,82,14,Hinjewadi,22,,,,22,,Zone 5,Pimpri Chinchwad Area,pdfplumber
+control_table,station_count,82,15,Midc Bhosari,33,,,,33,,Zone 5,Pimpri Chinchwad Area,pdfplumber
+control_table,station_count,82,16,Nigdi,55,,,,55,,Zone 5,Pimpri Chinchwad Area,pdfplumber
+control_table,station_count,82,17,Pimpri,44,,,,44,,Zone 5,Pimpri Chinchwad Area,pdfplumber
+control_table,station_count,82,18,Sangvi,51,,,,51,,Zone 5,Pimpri Chinchwad Area,pdfplumber
+control_table,station_count,82,19,Wakad,08,,,,8,,Zone 5,Pimpri Chinchwad Area,pdfplumber
+control_table,grand_total,82,20,Grand Total,1341,,,,1341,,Zone 5,Pimpri Chinchwad Area,pdfplumber
+annexure_a,zone_heading,83,0,Zone 1,,0,272,74,346,,Zone 1,Zone 1,pdfplumber
+annexure_a,station_subtotal,83,1,Deccan,,0,35,14,49,,Zone 1,Zone 1,pdfplumber
+annexure_a,station_subtotal,84,2,Faraskhana,,0,44,13,57,,Zone 1,Zone 1,pdfplumber
+annexure_a,station_subtotal,84,23,Khadak,,0,47,11,58,,Zone 1,Zone 1,pdfplumber
+annexure_a,station_subtotal,85,15,Samarth,,0,30,7,37,,Zone 1,Zone 1,pdfplumber
+annexure_a,station_subtotal,85,26,Shivaji Nagar,,0,38,9,47,,Zone 1,Zone 1,pdfplumber
+annexure_a,station_subtotal,86,15,Vishrambaug,,0,78,20,98,,Zone 1,Zone 1,pdfplumber
+annexure_a,zone_heading,87,13,Zone 2,,6,160,33,199,,Zone 2,Zone 2,pdfplumber
+annexure_a,station_subtotal,87,14,Bharti Vidhyapeeth,,6,17,5,28,,Zone 2,Zone 2,pdfplumber
+annexure_a,station_subtotal,87,25,Bundgarden,,0,42,7,49,,Zone 2,Zone 2,pdfplumber
+annexure_a,station_subtotal,88,12,Koregaonpark,,0,24,3,27,,Zone 2,Zone 2,pdfplumber
+annexure_a,station_subtotal,88,22,Lashkar,,0,35,9,44,,Zone 2,Zone 2,pdfplumber
+annexure_a,station_subtotal,89,5,Sahakarnagar,,0,13,4,17,,Zone 2,Zone 2,pdfplumber
+annexure_a,station_subtotal,89,14,Swargate,,0,29,5,34,,Zone 2,Zone 2,pdfplumber
+annexure_a,zone_heading,89,25,Zone 3,,8,81,19,108,,Zone 3,Zone 3,pdfplumber
+annexure_a,station_subtotal,89,26,Alankar,,0,5,1,6,,Zone 3,Zone 3,pdfplumber
+annexure_a,station_subtotal,90,1,Dattawadi,,4,23,5,32,,Zone 3,Zone 3,pdfplumber
+annexure_a,station_subtotal,90,14,Kothrud,,0,27,10,37,,Zone 3,Zone 3,pdfplumber
+annexure_a,station_subtotal,91,3,Uttam Nagar,,0,4,0,4,,Zone 3,Zone 3,pdfplumber
+annexure_a,station_subtotal,91,6,Warje Malwadi,,4,22,3,29,,Zone 3,Zone 3,pdfplumber
+annexure_a,zone_heading,91,16,Zone 4,,30,166,37,233,,Zone 4,Zone 4,pdfplumber
+annexure_a,station_subtotal,91,17,Chandan Nagar,,0,10,3,13,,Zone 4,Zone 4,pdfplumber
+annexure_a,station_subtotal,91,22,Chaturshringi,,8,68,11,87,,Zone 4,Zone 4,pdfplumber
+annexure_a,station_subtotal,92,17,Khadki,,0,17,2,19,,Zone 4,Zone 4,pdfplumber
+annexure_a,station_subtotal,92,26,Vimantal,,10,22,8,40,,Zone 4,Zone 4,pdfplumber
+annexure_a,station_subtotal,93,9,Vishrantwadi,,4,19,5,28,,Zone 4,Zone 4,pdfplumber
+annexure_a,station_subtotal,93,19,Yerawada,,8,30,8,46,,Zone 4,Zone 4,pdfplumber
+annexure_a,zone_heading,94,0,Zone 5,,20,132,39,191,,Zone 5,Zone 5,pdfplumber
+annexure_a,station_subtotal,94,1,Bibwewadi,,0,12,3,15,,Zone 5,Zone 5,pdfplumber
+annexure_a,station_subtotal,94,8,Hadapsar,,6,31,7,44,,Zone 5,Zone 5,pdfplumber
+annexure_a,station_subtotal,94,22,Kondhawa,,6,31,12,49,,Zone 5,Zone 5,pdfplumber
+annexure_a,station_subtotal,95,12,Marketyard,,0,12,5,17,,Zone 5,Zone 5,pdfplumber
+annexure_a,station_subtotal,95,19,Mundhwa,,4,21,4,29,,Zone 5,Zone 5,pdfplumber
+annexure_a,station_subtotal,96,0,Wanavadi,,4,25,8,37,,Zone 5,Zone 5,pdfplumber
+annexure_a,section_total,96,12,Total,,64,811,202,1077,,Zone 5,Zone 5,pdfplumber
+annexure_a,unclassified,96,13,Cameras,,,,,,,Zone 5,Zone 5,pdfplumber
+annexure_a,area_heading,96,14,Pimpri Chinchwad area,,14,221,29,264,,Zone 5,Pimpri Chinchwad area,pdfplumber
+annexure_a,station_subtotal,96,15,Bhosari,,2,27,2,31,,Zone 5,Pimpri Chinchwad area,pdfplumber
+annexure_a,station_subtotal,96,26,Chinchwad,,0,20,0,20,,Zone 5,Pimpri Chinchwad area,pdfplumber
+annexure_a,unclassified,97,0,Cameras,,,,,,,Zone 5,Pimpri Chinchwad area,pdfplumber
+annexure_a,station_subtotal,97,9,Hinjewadi,,4,17,1,22,,Zone 5,Pimpri Chinchwad area,pdfplumber
+annexure_a,station_subtotal,97,15,Midc Bhosari,,6,22,5,33,,Zone 5,Pimpri Chinchwad area,pdfplumber
+annexure_a,station_subtotal,97,24,Nigdi,,2,47,6,55,,Zone 5,Pimpri Chinchwad area,pdfplumber
+annexure_a,unclassified,98,0,Cameras,,,,,,,Zone 5,Pimpri Chinchwad area,pdfplumber
+annexure_a,station_subtotal,98,11,Pimpri,,0,39,5,44,,Zone 5,Pimpri Chinchwad area,pdfplumber
+annexure_a,station_subtotal,98,26,Sangvi,,0,41,10,51,,Zone 5,Pimpri Chinchwad area,pdfplumber
+annexure_a,unclassified,99,0,Cameras,,,,,,,Zone 5,Pimpri Chinchwad area,pdfplumber
+annexure_a,station_subtotal,99,12,Wakad,,0,8,0,8,,Zone 5,Pimpri Chinchwad area,pdfplumber
+annexure_a,grand_total,99,17,Grand Total,,78,1032,231,1341,,Zone 5,Pimpri Chinchwad area,pdfplumber
+annexure_b,zone_heading,100,0,Zone 1,,,,,,,Zone 1,Zone 1,pdfplumber
+annexure_b,zone_heading,111,11,Zone 2,,,,,,,Zone 2,Zone 2,pdfplumber
+annexure_b,zone_heading,123,10,Zone 3,,,,,,,Zone 3,Zone 3,pdfplumber
+annexure_b,zone_heading,134,2,Zone 4,,,,,,,Zone 4,Zone 4,pdfplumber
+annexure_b,zone_heading,150,11,Zone 5,,,,,,,Zone 5,Zone 5,pdfplumber
+annexure_b,grand_total,166,8,Grand Total 1238 2240 328 318,,318,2240,328,,,Zone 5,Zone 5,pdfplumber

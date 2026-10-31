@@ -1,0 +1,32 @@
+# ---------------------------------------------------------------------------
+# Only the genuinely oversized sources are excluded.
+#
+# data/raw/ is committed in full EXCEPT for the ~212 MB OSM extract, which
+# exceeds GitHub's 100 MiB per-file push limit. Everything else (ward
+# GeoJSONs, tender PDFs, Census xlsx) is tracked so a clone works immediately.
+#
+# To fetch the excluded file:
+#
+#     python scripts/fetch_data.py            # large files only
+#     python scripts/fetch_data.py --all      # re-download everything
+#
+# Keep this list in step with LARGE_PATTERNS in scripts/fetch_data.py.
+# Nothing is deleted: excluded files stay on disk, simply untracked.
+# ---------------------------------------------------------------------------
+data/raw/*.pbf
+data/raw/*.osm.pbf
+
+# Derived data (not source material)
+data/interim/
+data/processed/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp

@@ -1,0 +1,3 @@
+record_key,field,extractor1_value,extractor2_value,pdf_page,diff_type
+annexure_a|215|Zone 3,lat_raw,1 8 . 5 0 8 5 0 0,18.508500,90,value_differs
+annexure_a|215|Zone 3,lon_raw,7 3 . 8 3 0 9 8 3,73.830983,90,value_differs

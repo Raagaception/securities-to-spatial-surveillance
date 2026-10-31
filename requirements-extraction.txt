@@ -1,0 +1,14 @@
+# Exact versions used to produce the committed files in outputs/extraction/.
+# These four packages are all the extraction pipeline needs. The wider analysis
+# stack is in environment.yml.
+#
+# Install with:
+#     python -m pip install -r requirements-extraction.txt
+#
+# Verified 2026-10-26 on Python 3.14. The scripts are written for Python 3.11
+# and use only syntax that 3.11 supports.
+
+pdfplumber==0.11.10
+pymupdf==2.0
+pandas==3.1.0
+PyYAML==6.0.3
